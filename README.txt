@@ -12,4 +12,4 @@ index.html
 
 1. All aspects appear to be working correctly
 2. Discussed topics with Tiffani Lau 
-3. Approximately 1.5 hours spent on this project
+3. Approximately 5 hours spent on this project
