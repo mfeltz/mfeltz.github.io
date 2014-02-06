@@ -1,0 +1,51 @@
+h1 {
+	font-family: fantasy;
+	font-size: 90px;
+	border-color: black;
+	border-style: dotted;
+	text-align: center;
+	border-radius: 20px;
+	background: pink; 
+}
+
+h2 {
+	font-family: fantasy;
+	font-size: 40px;
+	font-weight: bold;
+	text-decoration: underline;
+	margin-left: 1em;
+	margin-right: 1em;
+	text-align: center;
+}
+
+p {
+	font-family: fantasy;
+	text-align: center;
+	border-color: black;
+	border-style: dotted;
+	border-radius: 10px;
+	background: pink;
+	margin-left: 12px;
+	margin-right: 12px;
+}
+
+body {
+	font-family: fantasy;
+}
+
+h3 {
+	border-color: black;
+	border-style: dotted;
+	text-align: center;
+	border-radius: 10px;
+	background: pink; 
+}
+img {
+	border-width: 12px;
+	border-style: groove;
+	border-color: black;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
