@@ -4,7 +4,6 @@ html {
 }
 body {
 	font-family: Avenir, "Century Gothic";
-	text-align: center;
 }
 header{
 	color: black;
@@ -51,12 +50,29 @@ a.headText:visited {
 	color:black;
 }
 
-p {
+/*p {
 	background-color: rgba(255,255,255,0.55);
 	border-radius: 4px;
 	text-align: left;
 	margin:0 90px;
 	color: black;
+}*/
+#name{
+	font-size: 28px;
+	text-align: center;
+}
+div{
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: rgba(255,255,255,0.55);
+	border-radius: 4px;
+	text-align: left;
+	margin:0 90px;
+	color: black;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	padding-bottom: 20px;
 }
 h1 {
 	background-color: rgba(255,255,255,0.55);
@@ -72,35 +88,18 @@ h2 {
 	margin:0 90px;
 	font-size: 20px;
 }
-#resume {
-	position: absolute;
-	left: 450px;
-	background-color: rgba(255,255,255,0.55);
-	border-radius: 4px;
-	text-align: left;
-	margin:0 90px;
-	padding-top:15px;
-	padding-bottom:15px;
-	padding-right:50px;
-	padding-left:50px;
-}
-#bio {
-	position: absolute;
-	left: 454px;
-	background-color: rgba(255,255,255,0.55);
-	border-radius: 4px;
-	margin:0 90px;
-	padding-top:15px;
-	padding-bottom:15px;
-	padding-right:50px;
-	padding-left:50px;
-}
 
-#Text{
+
+
+#resume{
 	padding: 10px 30px;
 }
 #email{
 	color: black;
+	text-decoration: underline;
+}
+#contact{
+	text-align: right;
 }
 p.sections {
 	font-weight: bold;
