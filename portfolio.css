@@ -13,8 +13,6 @@ header{
 img {
 	height=470;
 	width=200;
-	position: absolute;
-	left: 240px;
 	border: 2px solid white;
 	border-radius: 5px;
 }
@@ -74,19 +72,19 @@ h2 {
 }
 #resume {
 	position: absolute;
-	left: 450px;
+	left: 250px;
 	background-color: rgba(255,255,255,0.55);
 	border-radius: 4px;
 	text-align: left;
 	margin:0 90px;
 	padding-top:15px;
-	padding-bottom:15px;
+	padding-bottom:5px;
 	padding-right:50px;
 	padding-left:50px;
 }
 #bio {
 	position: absolute;
-	left: 454px;
+	left: 254px;
 	background-color: rgba(255,255,255,0.55);
 	border-radius: 4px;
 	margin:0 90px;
@@ -106,4 +104,8 @@ p.sections {
 	font-weight: bold;
 	text-align: left;
 	margin-bottom: -12px;
+}
+#image{
+	position:absolute;
+	left: 100px;
 }
