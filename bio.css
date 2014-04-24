@@ -1,0 +1,108 @@
+html {
+	background: url(hipster.jpg) no-repeat center center fixed; 
+    background-size: cover;
+}
+body {
+	font-family: Avenir, "Century Gothic";
+}
+header{
+	color: black;
+	font-size: 40px;
+}
+img {
+	height=470;
+	width=200;
+	position: absolute;
+	left: 240px;
+	border: 2px solid white;
+	border-radius: 5px;
+}
+
+a {
+	text-decoration: none;
+}
+
+a.headText {
+	color:black;
+}
+
+a.headText:visited {
+	color: black;
+}
+
+.headText:hover {
+	color:black;
+}
+
+.links {
+	color: black;
+	font-size: 20px;
+	text-decoration: none;
+	margin:0 15px;
+}
+.links:hover {
+	color:black;
+}
+.links:active {
+	color:black;
+}
+.links:link {
+	color:black;
+}
+
+/*p {
+	background-color: rgba(255,255,255,0.55);
+	border-radius: 4px;
+	text-align: left;
+	margin:0 90px;
+	color: black;
+}*/
+
+div{
+	font-size: 14px;
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: rgba(255,255,255,0.55);
+	border-radius: 4px;
+	text-align: left;
+	margin:0 50px;
+	color: black;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+h1 {
+	background-color: rgba(255,255,255,0.55);
+	border-radius: 4px;
+	text-align: center;
+	margin:0 50px;
+	font-size: 30px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+h2 {
+	background-color: rgba(255,255,255,0.55);
+	border-radius: 4px;
+	text-align: center;
+	margin:0 90px;
+	font-size: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+	padding-left:10px;
+	padding-right:10px;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+#wrap{
+	background-color: rgba(255,255,255,0.55);
+	border-radius: 4px;
+	text-align: left;
+	margin:0 90px;
+	font-size: 30px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+p.sections {
+	font-weight: bold;
+	text-align: left;
+	margin-bottom: -12px;
+}
