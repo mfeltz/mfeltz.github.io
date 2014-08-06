@@ -3,12 +3,9 @@
 	font-family: title_font;
 	src: url(basictitlefont.woff);
 }
-html {
-	background-image: url("images/hipster.jpg");
-	z-index: -1;
-}
-/*BODY*/
+
 body {
+	background-color: #E0FFEA;
 	margin: 0px;
 
 }
@@ -31,9 +28,10 @@ body {
 .nav {
 	top:40px;
 	position: relative;
-	width: 100%;
-	margin: 0px;
+	width: 750px;
+	margin: 0 auto;
 	z-index: 1;
+	font-size: 22px;
 	text-align: center;
 	font-family: fantasy;
 }
@@ -66,17 +64,55 @@ body {
 }
 /*CONTENT*/
 .content {
-	margin: 40px 200px 40px;
-	background-color: rgba(255,255,255,0.70);
+	margin: 15px auto;
 	padding: 5px;
+	width: 750px;
+	left: 50%;
+
+}
+@media screen (min-width: 520px) {
+
 }
 /*INTRO*/
-.intro img.profile {
-	margin: 10px;
-	height: 300px;
-	width: 250px;
+.about img.profile {
+	margin: 10px 10px 10px 30px;
+	height: 250px;
 	border-radius: 200px;
 	border-style: solid;
 	border-color: white;
 	border-width: 2px;
+}
+.content .about {
+	width: 750px;
+}
+.content .about p {
+	position: relative;
+	width: 400px;
+	float: right;
+	margin: 10px 30px 10px 10px;
+}
+.content .home p, h2{
+	text-align: center;
+}
+.content .work {
+	display: block;
+}
+.section {
+	height: 350px;
+	margin-top: 20px;
+}
+.home {
+}
+.about {
+}
+.work {
+}
+.design {
+}
+.contact {
+}
+h1 {
+	font-family: title_font;
+	font-size: 36px;
+	text-align: center;
 }
