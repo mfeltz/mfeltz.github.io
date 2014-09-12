@@ -17,19 +17,19 @@ $(document).ready(function(){
 		return false;
 	});
 	$('.nav .link_about').click(function(){
-		$("html, body").animate({scrollTop: 390}, 600);
+		$("html, body").animate({scrollTop: 500}, 600);
 		return false;
 	});
 	$('.nav .link_work').click(function(){
-		$("html, body").animate({scrollTop: 690}, 600);
+		$("html, body").animate({scrollTop: 880}, 600);
 		return false;
 	});
 	$('.nav .link_design').click(function(){
-		$("html, body").animate({scrollTop: 990}, 600);
+		$("html, body").animate({scrollTop: 1600}, 600);
 		return false;
 	});
 	$('.nav .link_contact').click(function(){
-		$("html, body").animate({scrollTop: 1290}, 600);
+		$("html, body").animate({scrollTop: 2050}, 600);
 		return false;
 	});
 

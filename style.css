@@ -97,22 +97,44 @@ body {
 .content .work {
 	display: block;
 }
+
 .section {
-	height: 350px;
-	margin-top: 20px;
+	margin-top: 40px;
+	text-align: center;
 }
 .home {
+	height: 350px;
 }
 .about {
+	height: 350px;
 }
 .work {
+	height: 700px;
 }
 .design {
+	height: 500px;
 }
 .contact {
+	height: 300px;
 }
 h1 {
 	font-family: title_font;
 	font-size: 36px;
 	text-align: center;
+}
+
+.job, .proj {
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+}
+
+.connect {
+	display: inline-block;
+	width: 150px;
+	height: 150px;
+}
+
+.logo {
+	width: 175px;
 }
