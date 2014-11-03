@@ -33,16 +33,13 @@ $(document).ready(function(){
 		return false;
 	});
 
-});
-
-<script type="text/javascript">
-		marqueeInit({
-			uniqueid: 'photos',
-			style: {
-				'padding': '0px',
-				'width': '100%',
-				'height': '175px'
-			},
+marqueeInit({
+	uniqueid: 'photos',
+	style: {
+		'padding': '0px',
+		'width': '100%',
+		'height': '175px'
+	},
 	inc: 1, //speed - pixel increment for each iteration of this marquee's movement
 	mouse: 'false', //mouseover behavior ('pause' 'cursor driven' or false)
 	moveatleast: 2,
@@ -50,3 +47,8 @@ $(document).ready(function(){
 	direction: 'right',
 	savedirection: true
 });
+
+
+
+});
+
