@@ -82,6 +82,9 @@ body {
 	border-color: white;
 	border-width: 2px;
 }
+.crawl {
+	height: 175px;
+}
 .content .about {
 	width: 750px;
 }
