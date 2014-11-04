@@ -5,28 +5,36 @@
 }
 
 body {
-	background-color: #E0FFEA;
+	background-color: #ffffff;
 	margin: 0px;
 
 }
 /*TOP NAVIGATION*/
 .header {
-	height: 150px;
-	background: #C2FFD6;
+	height: 230px;
+	background: #ffffff;
 }
 .welcome {
 	font-family: title_font;
-	font-size: 40px;
+	font-size: 130px;
 	text-align: center;
 	position: absolute;
 	width: 100%;
 	margin: 0 auto;
-	height: 75px;
+	height: 150px;
 	top: 5%;
 }
+.first {
+	display: inline;
+}
+.last{
+	display: inline;
+	color: #87b295;
+}
+
 /*GENERAL NAVIGATION*/
 .nav {
-	top:40px;
+	top:50px;
 	position: relative;
 	width: 750px;
 	margin: 0 auto;
@@ -41,7 +49,7 @@ body {
 	margin: 0 20px;
 	text-align: center;
 	cursor: pointer;
-	font-style: Helvetica;
+	font-family: title_font;
 }
 .header_nav {
 	top: 70%;
@@ -84,6 +92,8 @@ body {
 }
 .crawl {
 	height: 175px;
+	border-radius: 70px;
+	background-color: #ffffff;
 }
 .content .about {
 	width: 750px;
@@ -136,6 +146,9 @@ h1 {
 	display: inline-block;
 	width: 150px;
 	height: 150px;
+}
+.contact_icon{
+	height: 75px;
 }
 
 .logo {
