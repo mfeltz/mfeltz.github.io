@@ -13,6 +13,8 @@ body {
 .header {
 	height: 150px;
 	background: #ffffff;
+	margin: 5px auto;
+	width: 750px;
 }
 .welcome {
 	height: 80px;
@@ -20,7 +22,7 @@ body {
 	font-size: 75px;
 	text-align: center;
 	position: absolute;
-	width: 100%;
+	width: 750px;
 	margin: 0 auto;
 	height: 150px;
 	top: 5%;
@@ -97,7 +99,8 @@ body {
 }
 /*INTRO*/
 .about img.profile {
-	margin: 10px 8px 10px 30px;
+	display: inline-block;
+	margin: 10px 8px 10px 20px;
 	height: 250px;
 	border-radius: 200px;
 	border-style: solid;
@@ -121,10 +124,9 @@ body {
 	width: 750px;
 }
 .content .about p {
-	position: relative;
 	width: 400px;
 	float: right;
-	margin: 10px 30px 10px 8px;
+	margin: 5px auto;
 }
 .content .home p, h2{
 	text-align: center;
@@ -136,6 +138,7 @@ body {
 .section {
 	margin-top: 10px;
 	text-align: center;
+
 }
 .home {
 	height: 350px;
