@@ -73,7 +73,7 @@ body {
 /*SCROLL NAVIGATION*/
 .scroll {
 	width: 100%;
-	background: rgba(194, 255, 214, 0.7);
+	background: rgba(204, 163, 183, 0.8);
 	font-style: Helvetica;
 	display: none;
 	position: fixed;
