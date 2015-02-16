@@ -30,6 +30,10 @@ body {
 h1 {
 	font-size: 100px;
 }
+h2 {
+	font-size: 20px;
+	font-family: title_font;
+}
 .first {
 	display: inline;
 	color: #801a4c;

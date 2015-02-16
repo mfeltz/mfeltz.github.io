@@ -147,6 +147,8 @@ body {
 	height: 350px;
 }
 .work {
+	margin: 0 auto;
+	width: 600px;
 	height: 700px;
 }
 .design {
@@ -163,8 +165,11 @@ h1 {
 
 .job, .proj {
 	display: inline-block;
-	width: 200px;
-	height: 200px;
+	width: 100px;
+	height: 100px;
+}
+.logo {
+	width: 100px;
 }
 
 .connect {
@@ -178,6 +183,3 @@ h1 {
 	height: 50px;
 }
 
-.logo {
-	width: 175px;
-}

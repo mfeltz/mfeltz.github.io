@@ -12,6 +12,7 @@ $(document).ready(function(){
 	}
 
 	//Scroll Down to sections
+	/*
 	$('.nav .link_home').click(function(){
 		$("html, body").animate({scrollTop: 0}, 600);
 		return false;
@@ -31,7 +32,13 @@ $(document).ready(function(){
 	$('.nav .link_contact').click(function(){
 		$("html, body").animate({scrollTop: 2050}, 600);
 		return false;
-	});
+	}); 
+	*/
+
+	$('.IBM_pic').click(function() {
+		
+	})
+
 
 });
 
