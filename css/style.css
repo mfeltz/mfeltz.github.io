@@ -1,13 +1,12 @@
 /*FONTS*/
 @font-face {
 	font-family: title_font;
-	src: url(basictitlefont.woff);
+	src: url('../fonts/basictitlefont.woff');
 }
 
 body {
 	background-color: #ffffff;
 	margin: 0px;
-
 }
 /*TOP NAVIGATION*/
 .header {
@@ -16,7 +15,7 @@ body {
 	margin: 5px auto;
 	width: 750px;
 }
-.welcome {
+.name {
 	height: 80px;
 	font-family: title_font;
 	font-size: 75px;
@@ -25,9 +24,12 @@ body {
 	width: 750px;
 	margin: 0 auto;
 	height: 150px;
-	top: 5%;
 }
-
+h1 {
+	font-family: title_font;
+	font-size: 100px;
+	text-align: center;
+}
 .first {
 	display: inline;
 	color: #801a4c;
@@ -36,30 +38,36 @@ body {
 	margin-left: 30px;
 	display: inline;
 }
-.page {
-	display: inline-block;
-	width: 80px;
-	margin: 0 20px;
-	text-align: center;
-	cursor: pointer;
-	font-family: title_font;
-}
-
-
-
 
 /*GENERAL NAVIGATION*/
-.nav {
-	top:50px;
+.logo_nav {
+	top: 10%;
 	position: relative;
 	width: 750px;
 	margin: 0 auto;
 	z-index: 1;
 	font-size: 22px;
 	text-align: center;
-	font-family: fantasy;
+	font-family: title_font;
 }
-.nav .link {
+.logo_nav .link{
+	width: 80px;
+	text-align: center;
+	cursor: pointer;
+	margin: 0 auto;
+}
+
+.nav {
+	top: 20%;
+	position: relative;
+	width: 750px;
+	margin: 0 auto;
+	z-index: 1;
+	font-size: 22px;
+	text-align: center;
+	font-family: title_font;
+}
+.nav .link{
 	display: inline-block;
 	width: 80px;
 	margin: 0 20px;
@@ -84,7 +92,7 @@ body {
 	height: 60px;
 }
 .scroll_nav {
-	top: 37%;
+	top: 30%;
 }
 /*CONTENT*/
 .content {
@@ -92,93 +100,69 @@ body {
 	padding: 0px;
 	width: 750px;
 	left: 50%;
-
+	text-align: center;
 }
+.info {
+	height: 500px;
+/*	border-style: solid;
+	border-color: black;
+	*/
+	padding: 40px 25px;
+}
+
 @media screen (min-width: 520px) {
 
 }
-/*INTRO*/
-.about img.profile {
-	display: inline-block;
-	margin: 10px 8px 10px 20px;
-	height: 250px;
-	border-radius: 200px;
-	border-style: solid;
-	border-color: white;
-	border-width: 2px;
-}
-.img_home{
+/* ABOUT SECTION */
+.picture{
 	-webkit-filter: grayscale(100%);
 	-moz-filter: grayscale(100%);
 	filter: grayscale(100%);
-	height: 350px;
+	height: 250px;
 	margin: 0px auto 0px auto;
 	display: block;
 }
-.crawl {
-	height: 175px;
-	border-radius: 70px;
-	background-color: #ffffff;
-}
-.content .about {
-	width: 750px;
-}
-.content .about p {
-	width: 400px;
-	float: right;
-	margin: 5px auto;
-}
-.content .home p, h2{
-	text-align: center;
-}
-.content .work {
-	display: block;
-}
 
-.section {
-	margin-top: 10px;
-	text-align: center;
-
-}
-.home {
-	height: 350px;
-}
-.about {
-	height: 350px;
-}
-.work {
+/* HIGHLIGHT WORK PAGE */
+.desc {
+	height: 200px;
+	width: 50%;
 	margin: 0 auto;
-	width: 600px;
-	height: 700px;
 }
-.design {
-	height: 500px;
+.highlight {
+	width: 150px;
+	float: left;
+	margin: 0px 10px 0px 15px;
 }
-.contact {
-	height: 300px;
+.detail {
+	display: block;
+	list-style: none;
+	margin-left: 10px;
+	font-family: Arial;
 }
-h1 {
-	font-family: title_font;
-	font-size: 36px;
-	text-align: center;
-}
-
 .job, .proj {
 	display: inline-block;
-	width: 100px;
-	height: 100px;
+	width: 150px;
 }
 .logo {
+	vertical-align: center;
 	width: 100px;
 }
 
+/* CONTACT SECTION */
+.contact {
+	margin-top: 10px;
+	text-align: center;
+	height: 100px;
+}
 .connect {
 	display: inline-block;
 	width: 50px;
 	height: 50px;
-	padding-left: 2px;
-	padding-right: 2px;
+	padding-left: 5px;
+	padding-right: 5px;
 }
+
 .contact_icon{
 	height: 50px;
 }

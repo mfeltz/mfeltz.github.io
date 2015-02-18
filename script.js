@@ -12,28 +12,31 @@ $(document).ready(function(){
 	}
 
 	//Scroll Down to sections
-	/*
+	$('.logo_nav .link_home').click(function(){
+		$("html, body").animate({scrollTop: 0}, 600);
+		return false;
+	});
 	$('.nav .link_home').click(function(){
 		$("html, body").animate({scrollTop: 0}, 600);
 		return false;
 	});
 	$('.nav .link_about').click(function(){
-		$("html, body").animate({scrollTop: 500}, 600);
+		$("html, body").animate({scrollTop: 650}, 600);
 		return false;
 	});
 	$('.nav .link_work').click(function(){
-		$("html, body").animate({scrollTop: 880}, 600);
+		$("html, body").animate({scrollTop: 1150}, 600);
 		return false;
 	});
-	$('.nav .link_design').click(function(){
-		$("html, body").animate({scrollTop: 1600}, 600);
+	$('.nav .link_projects').click(function(){
+		$("html, body").animate({scrollTop: 1650}, 600);
 		return false;
 	});
 	$('.nav .link_contact').click(function(){
-		$("html, body").animate({scrollTop: 2050}, 600);
+		$("html, body").animate({scrollTop: 2150}, 600);
 		return false;
 	}); 
-	*/
+
 
 	$('.IBM_pic').click(function() {
 		

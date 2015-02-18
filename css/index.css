@@ -1,7 +1,7 @@
 /*FONTS*/
 @font-face {
 	font-family: title_font;
-	src: url(basictitlefont.woff);
+	src: url('../fonts/basictitlefont.woff');
 }
 
 body {
@@ -44,12 +44,12 @@ h2 {
 	display: inline;
 }
 .page {
+	font-family: title_font;
 	display: inline-block;
 	width: 80px;
 	margin: 0 20px;
 	text-align: center;
 	cursor: pointer;
-	font-family: title_font;
 }
 
 /*GENERAL NAVIGATION*/
