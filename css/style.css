@@ -122,7 +122,8 @@ h1 {
 }
 /* ABOUT SECTION */
 .about {
-	background-color: #5FE1CD;
+	background-image: url(../images/dark_embroidery/dark_embroidery.png);
+	color: white;
 }
 .picture{
 	-webkit-filter: grayscale(100%);

@@ -1,0 +1,96 @@
+@font-face {
+	font-family: title_font;
+	src: url('../fonts/basictitlefont.woff');
+}
+body {
+}
+/* HEADER NAVIAGTION */
+#header-wrapper {
+	background-image: url(../images/arab_tile/arab_tile.png);
+	margin: 0px;
+}
+#header {
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 0;
+	padding-right: 0;
+	width: 956px;
+	height: 150px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+#header img {
+	height: 70px;
+	margin: auto;
+	display: block;
+}
+.nav {
+	width: 650px;
+	margin: 20px auto 20px auto;
+	display: block;
+	padding-left: 14px;
+	font-family: title_font;
+	font-size: 22px;
+}
+.menu-item{
+
+	float: left;
+	text-align: center;
+	width: 100px;
+	height: 30px;
+	margin: 2px 12px 2px 12px;
+}
+#resume-menu {
+	margin-bottom: 0;
+	padding-bottom: 2px;
+}
+#resume-dropdown {
+	list-style: none;
+	padding: 0px;
+	display: none;
+}
+.resume-item {
+	text-align: center;
+	width: 100px;
+	height: 30px;
+	border-radius: 5px;
+	margin: 2px 0px;
+	background-color: #E5E5E5;
+}
+#header ul li:hover ul{
+	display: block;
+}
+#header ul ul li:hover {
+	color: white;
+}
+
+/* Home Section */
+#home {
+	background-image: url(../images/home.png);
+	height: 435px;
+	margin: 0px;
+	position: relative;
+	text-align: center;
+}
+#name-div {
+	margin: 0 auto;
+	height: 170px;
+	width: 1000px;
+}
+#home h1 {
+	font-family: title_font;
+	font-size: 150px;
+	position: absolute;
+	height: 155px;
+	margin: 10px;
+}
+#first-name {
+	color: rgb(255,140,145);
+	position: absolute;
+	left: 49.5px;
+}
+#last-name {
+	color: white;
+	position: absolute;
+	left: 700px;
+}
