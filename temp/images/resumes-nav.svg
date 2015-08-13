@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="64px" height="96px" viewBox="0 0 64 96" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.2 (12043) - http://www.bohemiancoding.com/sketch -->
+    <title>resumes-nav + Rectangle 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="resumes-nav-+-Rectangle-1" sketch:type="MSLayerGroup" transform="translate(-40.000000, 0.000000)">
+            <g id="resumes-nav" transform="translate(28.547368, 0.000000)" sketch:type="MSShapeGroup">
+                <g id="Page-1">
+                    <g id="Rectangle-9-+-Group">
+                        <rect id="Rectangle-9" x="0" y="0" width="86.9052632" height="96"></rect>
+                        <g id="Group" transform="translate(11.115789, 0.000000)" fill="#000000">
+                            <path d="M0.539621053,0.372837209 L0.539621053,95.6271628 L64.1350737,95.6271628 L64.1350737,0.372837209 L0.539621053,0.372837209 L0.539621053,0.372837209 Z M60.9003789,92.0550698 L3.77330526,92.0550698 L3.77330526,3.94493023 L60.9003789,3.94493023 L60.9003789,92.0550698 L60.9003789,92.0550698 Z" id="Shape"></path>
+                            <rect id="Rectangle-path" x="12.4587789" y="25.7067907" width="40.2957474" height="2.96706977"></rect>
+                            <rect id="Rectangle-path" x="12.4587789" y="34.0163721" width="40.2957474" height="2.96595349"></rect>
+                            <rect id="Rectangle-path" x="12.4587789" y="42.3237209" width="40.2957474" height="2.96818605"></rect>
+                            <rect id="Rectangle-path" x="12.4587789" y="50.6310698" width="40.2957474" height="2.96818605"></rect>
+                            <rect id="Rectangle-path" x="12.4587789" y="58.9406512" width="40.2957474" height="2.9704186"></rect>
+                            <rect id="Rectangle-path" x="12.4587789" y="67.2502326" width="40.2957474" height="2.9704186"></rect>
+                            <rect id="Rectangle-path" x="12.4587789" y="75.559814" width="31.6992" height="2.96706977"></rect>
+                            <rect id="Rectangle-path" x="16.7565474" y="17.3983256" width="35.9989895" height="2.96706977"></rect>
+                        </g>
+                    </g>
+                </g>
+            </g>
+            <rect id="Rectangle-1" sketch:type="MSShapeGroup" x="0" y="0" width="144" height="96"></rect>
+        </g>
+    </g>
+</svg>

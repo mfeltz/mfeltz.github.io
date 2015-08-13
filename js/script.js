@@ -37,6 +37,8 @@ $(document).ready(function(){
 		return false;
 	}); 
 
+
+
 	//GENERAL FOR JOBS
 	$(".job").on("mouseenter", function(){
 		$(".default").hide();
