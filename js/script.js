@@ -1,6 +1,6 @@
 $( document ).ready(function() {
 	$('#work-detail-container, #project-detail-container').hide();
-	
+
 	//NAV SCROLLING
 	var attachNavScroll = function(link, top) {
 		$(link).click(function() {
@@ -22,6 +22,18 @@ $( document ).ready(function() {
 	attachNavScroll('#projects-nav', section_4);
 	attachNavScroll('#resumes-nav', section_5);
 	attachNavScroll('#contact-nav', section_6);
+
+
+	//BUBBLE VARIABLES
+
+		//WORK
+
+		//FITBIT
+		var fitbit_title = 'Software Engineering Intern';
+		var fitbit_date = 'Summer 2015';
+		var fitbit_url = 'fitbit.com';
+		var fitbit_desc = 'Worked on the Device Cornerstone team. Front-end focused, working on various bug fixes, as well as creating my own user interface for daily stats.';
+
 
 	//MODAL
 	var initializeModal = function() {
