@@ -1,5 +1,6 @@
 $( document ).ready(function() {
-
+	$('#work-detail-container, #project-detail-container').hide();
+	
 	//NAV SCROLLING
 	var attachNavScroll = function(link, top) {
 		$(link).click(function() {
@@ -26,13 +27,20 @@ $( document ).ready(function() {
 	var initializeModal = function() {
 		var showOverlayClass = 'showOverlay';
 
-		$('.project-bubble, .work-bubble').click(function() {
+		$('.work-bubble').click(function() {
 			$('#overlay').addClass(showOverlayClass);
+			$('#work-detail-container').show();
+		});
+
+		$('.project-bubble').click(function() {
+			$('#overlay').addClass(showOverlayClass);
+			$('#project-detail-container').show();
 		});
 
 		$('#overlay').click(function(evt){
             if(evt.target.className === showOverlayClass) {
                 $('#overlay').removeClass(showOverlayClass);
+                $('#work-detail-container, #project-detail-container').hide();
             }
         });
 	};

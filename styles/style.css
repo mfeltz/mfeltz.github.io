@@ -37,6 +37,10 @@ body {
   right: 175px;
 }
 
+.nav-item:visited {
+  color: black;
+}
+
 #home-nav {
   background-color: #EFDAC7;
 }
@@ -179,8 +183,13 @@ body {
   -webkit-filter: grayscale(0%);
 }
 
-.project-bubble:hover, .work-bubble:hover {
+.work-bubble:hover {
   border: 3px solid #e77e7e;
+  background-color: rgba(255,255,255, .6);
+}
+
+.project-bubble:hover {
+  border: 3px solid #ae906b;
   background-color: rgba(255,255,255, .6);
 }
 
@@ -225,7 +234,7 @@ body {
 
 /*PROJECTS SECTION*/
 .projects-section {
-  background-color: lavenderblush;
+  background-color: #c9b59c;
   height: 550px;
 }
 
@@ -315,6 +324,41 @@ body {
     border-radius: 30px;
 }
 
-#project-detail-container {
-    display: none;
+.modal-title {
+  position: absolute;
+  top: 10px;
+  left: 0px;
+  font-size: 50px;
+  width: inherit;
+}
+
+.modal-date {
+  position: absolute;
+  top: 59px;
+  left: 0px;
+  font-size: 20px;
+  width: inherit;
+}
+
+.modal-url {
+  position: absolute;
+  top: 88px;
+  left: 0px;
+  font-size: 36px;
+  width: inherit;
+}
+
+.modal-desc {
+  position: absolute;
+  top: 154px;
+  left: 0px;
+  font-size: 22px;
+  padding: 0 32px;
+  line-height: 36px;
+  text-align: justify;
+}
+
+#work-detail-container, #project-detail-container {
+  font-size: 30px;
+  color: white;
 }
