@@ -1,0 +1,320 @@
+/*FONTS*/
+@font-face {
+  font-family: title_font;
+  src: url('../fonts/basictitlefont.woff');
+}
+
+body {
+	font-family: title_font;
+	background-color: rgba(100, 144, 255, .6);
+  margin: 0;
+}
+
+#nav-container {
+  width: 165px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  padding: 20px 5px;
+  position: fixed;
+  right: -125px;
+}
+
+.nav-item {
+  padding: 10px 15px;
+  width: 115%;
+  letter-spacing: 8px;
+  text-decoration: none;
+  position: fixed;
+  position: relative;
+  right: 0px;
+  -webkit-transition: right 1s;
+  transition: right 1s;
+}
+
+.nav-item:hover {
+  right: 175px;
+}
+
+#home-nav {
+  background-color: #EFDAC7;
+}
+
+#about-nav {
+  background-color: #977953;
+}
+
+#work-nav {
+  background-color: #C35D4A;
+}
+
+#projects-nav {
+  background-color: #4B8320;
+}
+
+#resumes-nav {
+  background-color: #349B9E;
+}
+
+#contact-nav {
+  background-color: #4A666A;
+}
+
+.nav-icon {
+  height: 10px;
+  padding: 0px 2px;
+}
+
+.nav-text {
+  position: absolute;
+  left: 45px;
+}
+
+.section-container {
+  height: 600px;
+  width: 100%;
+  border: 1px solid #000;
+}
+
+.section {
+  width: 100%;
+}
+
+.section-title {
+  font-size: 50px;
+  padding: 30px 0px;
+  text-align: center;
+}
+
+/*HOME SECTION*/
+.home-section {
+  height: 750px;
+  background: url('../images/bigsur_bg.jpg') no-repeat center;
+  background-size: cover;
+}
+
+#name-container {
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 150px;
+    padding: 27px;
+    color: white;
+    position: relative;
+    top: 50px;
+}
+
+/*ABOUT SECTION*/
+.about-section {
+  background-color: paleturquoise;
+  height: 620px;
+}
+
+#about-container {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: initial;
+  width: 700px;
+  margin: 0 auto;
+}
+
+.about-flex-item {
+  width: 350px;
+  margin: 0 10px;
+}
+
+#about-photo {
+  width: inherit;
+}
+
+#about-name {
+  font-size: 45px;
+}
+
+#about-detail {
+  font-size: 18px;
+  line-height: 25px;
+  margin-top: 14px;
+}
+
+/*WORK SECTION*/
+.work-section {
+  background-color: #f7d4d4;
+  height: 550px;
+}
+
+#work-bubbles-container, #project-bubbles-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 768px;
+  margin: 0 auto;
+  position: relative;
+}
+
+#project-bubbles-container {
+  width: 850px;
+  margin: 0px auto;
+}
+
+.work-bubble, .project-bubble {
+  border: 3px solid rgba(0, 0, 0, 0);
+  height: 160px;
+  width: 160px;
+  border-radius: 100px;
+  margin: 25px 18px;
+  background-color: rgba(255,255,255, .3);
+  position: relative;
+  overflow: hidden;
+}
+
+/*WORK BUBBLES*/
+.bubble-img {
+  -webkit-filter: grayscale(100%);
+  position: absolute;
+}
+
+.bubble-img:hover {
+  -webkit-filter: grayscale(0%);
+}
+
+.project-bubble:hover, .work-bubble:hover {
+  border: 3px solid #e77e7e;
+  background-color: rgba(255,255,255, .6);
+}
+
+/*WORK BUBBLES*/
+#fitbit-bubble .bubble-img {
+  width: 151px;
+  top: 5px;
+  left: 5px;
+}
+
+#ibm-bubble .bubble-img {
+  top: 49px;
+  left: 12px;
+  width: 137px;
+}
+
+#gkn-bubble .bubble-img {
+  top: 49px;
+  left: 12px;
+  width: 137px;
+}
+
+
+#tsr-bubble .bubble-img {
+  top: 49px;
+  left: 12px;
+  width: 137px;
+}
+
+#tcc-bubble .bubble-img {
+  top: 14px;
+  left: -5px;
+  width: 173px;
+}
+
+#lux-bubble .bubble-img {
+  top: 8px;
+  left: 5px;
+  border-radius: 80px;
+  width: 150px;
+}
+
+/*PROJECTS SECTION*/
+.projects-section {
+  background-color: lavenderblush;
+  height: 550px;
+}
+
+/*PROJECT BUBBLES*/
+#personal-bubble .bubble-img {
+  width: 231px;
+  left: -32px;
+}
+
+#lux-web-bubble .bubble-img {
+  width: 212px;
+  left: -29px;
+}
+
+#tcc-web-bubble .bubble-img {
+  width: 180px;
+  left: -8px;
+}
+
+#jumbo-bubble .bubble-img {
+  width: 231px;
+  left: -43px;
+  top: -7px;
+}
+
+#scoop-bubble .bubble-img {
+  width: 178px;
+  left: -5px;
+}
+
+#rpn-bubble span {
+  top: 51px;
+  left: 21px;
+  font-size: 26px;
+  position: absolute;
+}
+
+#imgrot-bubble span {
+  top: 41px;
+  left: 17px;
+  font-size: 26px;
+  position: absolute;
+}
+
+/*RESUMES SECTION*/
+.resume-section {
+  height: 400px;
+  background-color: #9edc6f;
+}
+
+
+/*CONTACT SECTION*/
+
+.contact-section {
+  background-color: silver;
+  height: 300px;
+  justify-content: space-between;
+}
+
+/*MODALS*/
+#overlay {
+    position: fixed;
+    opacity: 0;
+    z-index: -1;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-color: rgba(30, 30, 30, .8);
+}
+
+#overlay.showOverlay {
+    z-index: 1000;
+    -webkit-transition: opacity 0.5s ease-in;
+    -moz-transition: opacity 0.5s ease-in;
+    -o-transition: opacity 0.5s ease-in;
+    opacity: 1;
+}
+
+.modal{
+    position: relative;
+    height: 400px;
+    background-color: rgba(0,0,0,.6);
+    width: 750px;
+    margin: 100px auto;
+    border-radius: 30px;
+}
+
+#project-detail-container {
+    display: none;
+}

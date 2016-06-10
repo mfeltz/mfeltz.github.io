@@ -1,125 +1,119 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Margaret Feltz</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="shortcut icon" href="asdf/monogram.png">
-	
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-
+	<title>Margaret</title>
+	<link rel="stylesheet" type="text/css" href="styles/style.css">
 </head>
 <body>
-	<div class="header">
-		<div class="icon_nav">
-			<div><img class="icon header_icon" src="images/elephant.svg"></div>
-		</div>
-		<div class="nav">
-			<div class="link link_about">About</div>
-			<div class="link link_work">Work</div>
-			<div class="link link_projects">Projects</div>
-			<div class="link link_resumes"></div>
-			<div class="link link_contact">Contact</div>
+	<!-- MAIN NAV BAR -->
+	<div id="nav-container">
+			<a href="#" class="nav-item" id="home-nav">
+				<span class="nav-text">home</span><img src="images/home-nav.svg" class="nav-icon"></a>
+			<a href="#" class="nav-item" id="about-nav">
+				<span class="nav-text">about</span><img src="images/about-nav.svg" class="nav-icon"></a>
+			<a href="#" class="nav-item" id="work-nav">
+				<span class="nav-text">experience</span><img src="images/work-nav.svg" class="nav-icon"></a>
+			<a href="#" class="nav-item" id="projects-nav">
+				<span class="nav-text">projects</span><img src="images/projects-nav.svg" class="nav-icon"></a>
+			<a href="#" class="nav-item" id="resumes-nav">
+				<span class="nav-text">resumes</span><img src="images/resumes-nav.svg" class="nav-icon"></a>
+			<a href="#" class="nav-item" id="contact-nav">
+				<span class="nav-text">contact</span><img src="images/contact-nav.svg" class="nav-icon"></a>
+	</div>
+
+	<!-- CONTENT -->
+	<div class="section home-section">
+		<div id="name-container">Margaret Feltz</div>
+	</div>
+	<div class="section about-section">
+		<div class="section-title">About</div>
+		<div id="about-container">
+			<div class="about-flex-item" id="about-photo-container">
+				<img id="about-photo" src="images/about.jpg"></div>
+			<div class="about-flex-item" id="about-text-container">
+				<div id="about-name">Margaret Feltz</div>
+				<div id="about-detail">Recent grad from Tufts University. Excited to explore San Francisco this year as a software engineer.</div>
+			</div>
 		</div>
 	</div>
-	<div class="scroll">
-		<div class="nav scroll_nav">
-			<div class="link link_about">About</div>
-			<div class="link link_work">Work</div>
-			<div class="link link_projects">Projects</div>
-			<div class="link dropdown">
-			  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true">
-			    Resumes
-			    <span class="caret"></span>
-			  </button>
-			  <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
-			  	<li role="presentation"><a role="menuitem" tabindex="-1" href="Resume.pdf">Business</a></li>
-			    <li role="presentation"><a role="menuitem" tabindex="-1" href="Resume_Tech.pdf">Technical</a></li>
-			  </ul>
+	<div class="section work-section">
+		<div class="section-title">Experience</div>
+		<div id="work-bubbles-container">
+			<div id="fitbit-bubble" class="work-bubble">
+				<img class="bubble-img" src="images/fitbit-logo.png">
 			</div>
-			<div class="link link_contact">Contact</div>
-		</div>
-		<div class="icon_nav scroll_nav">
-			<div class="link link_home"><img class="small_icon scroll_icon" src="images/star.png"></div>
+			<div id="ibm-bubble" class="work-bubble">
+				<img class="bubble-img" src="images/ibm_logo.svg">
+			</div>
+			<div id="gkn-bubble" class="work-bubble">
+				<img class="bubble-img" src="images/gkn-logo.png">
+			</div>
+			<div id="tsr-bubble" class="work-bubble">
+				<img class="bubble-img" src="images/TSRlogo.gif">
+			</div>
+			<div id="tcc-bubble" class="work-bubble">
+				<img class="bubble-img" src="images/china-care.gif">
+			</div>
+			<div id="lux-bubble" class="work-bubble">
+				<img class="bubble-img" src="images/tuftslux.png">
+			</div>
 		</div>
 	</div>
-<!-- CONTENT -->
-	<div class="content">
-		<div class="home">
-			<div class="name"><h1 class="first">Margaret</h1><h1 class="last">Feltz</h1></div>
-		</div>
-		<div class="about info">
-			<div class="section">
-				<h2>About Me</h2>
-				<img class="picture"src="images/profile.jpg" alt="photo not available">
-				<p class="description">My name is Margaret Feltz and I am junior at Tufts University studying Computer Science Engineering with a minor in Entrepreneurial Science. While I enjoy doing some web development in my spare time, I also have many other passions that shape who I am. On my campus, I serve the role of president for Tufts China Care, a non-profit that fundraises to provide life-changing surgeries for orphans in Beijing. I also am a co-director of the LUX Fashion Show on my campus, which is China Care's largest funraiser, but also a very large scale production. I also enjoy being one of the executives of Tufts' student run business Tufts Student Resources. 
-				</p>
+	<div class="section projects-section">
+		<div class="section-title">Projects</div>
+		<div id="project-bubbles-container">
+			<div id="personal-bubble" class="project-bubble">
+				<img class="bubble-img" src="images/personal.png">
+			</div>
+			<div id="lux-web-bubble" class="project-bubble">
+				<img class="bubble-img" src="images/lux-web.png">
+			</div>
+			<div id="tcc-web-bubble" class="project-bubble">
+				<img class="bubble-img" src="images/tcc-web.png">
+			</div>
+			<div id="jumbo-bubble" class="project-bubble">
+				<img class="bubble-img" src="images/jumbosavings.png">
+			</div>
+			<div id="scoop-bubble" class="project-bubble">
+				<img class="bubble-img" src="images/scoop.png">
+			</div>
+			<div id="rpn-bubble" class="project-bubble">
+				<span>RPN Calculator</span>
+			</div>
+			<div id="imgrot-bubble" class="project-bubble">
+				<span>Image Rotation + Compression</span>
 			</div>
 		</div>
-		<div class="work info">
-			<div class="section">
-				<div class="work_display">
-					<h2 class="default">Work Experience</h2>
-					<div class="desc IBM_info" style="display: none;">
-						<img src="images/IBM_logo.svg" class="highlight" alt="Photo not available">
-						<h3>Software Development Intern</h3>
-						<ul class="detail">
-							<li>June 2014 - August 2014</li>
-							<li>Major: Computer Science Engineering</li>
-							<li>Hometown: Southington, CT</li>
-					</div>
-					<div class="desc TSR_info" style="display: none;">
-						<img src="images/TSR_logo.gif" class="highlight" alt="Photo not available">
-						<h3>Chief Executive Officer</h3>
-						<ul class="detail">
-							<li>June 2014 - August 2014</li>
-							<li>Major: Computer Science Engineering</li>
-							<li>Hometown: Southington, CT</li>
-					</div>
-				</div>
-				<div class="job_images">
-					<div class="IBM job"><img class="logo IBM_pic" src="images/IBM_logo.svg" alt=" photo not available"></div>
-					<div class="TSR job"><img class="logo" src="images/TSR_logo.gif" alt=" photo not available"></div>			
-					<div class="GKN job"><img class="logo" src="images/GKN_logo.jpg" alt=" photo not available"></div>			
-					<div class="PW job"><img class="logo" src="images/PW_logo.jpg" alt=" photo not available"></div>						
-					<div class="TCC job"><img class="logo" src="images/TCC_logo.PNG" alt=" photo not available"></div>			
-					<div class="LUX job"><img class="logo" src="images/LUX_logo.PNG" alt=" photo not available"></div>
-				</div>
-			</div>
-		</div>
-		<div class="projects info">
-			<div class="section">
-				<h2>Projects</h2>
-				<div class="proj_windows">
-					<div class="proj"><img class="preview" src="images/mfeltz.png" alt=" photo not available">My Website</div>
-					<div class="proj"><img class="preview" src="" alt=" photo not available">Jumbo Savings</div>
-					<div class="proj"><img class="preview" src="" alt=" photo not available">Square Bear</div>
-					<div class="proj"><img class="preview" src="" alt=" photo not available">Image Compression and Rotation</div>
-					<div class="proj"><img class="preview" src="" alt=" photo not available">RPN Calculator</div>
-					<div class="proj"><img class="preview" src="" alt=" photo not available">Tufts China Care Website</div>
-					<div class="proj"><img class="preview" src="" alt=" photo not available">BackTrack Solo</div>
-					<div class="proj"><img class="preview" src="" alt=" photo not available">Project</div>
-				</div>
-			</div>
-		</div>
-		<div class="contact">
-			<div class="section">
-				<!--Linkedin-->
+	</div>
+	<div class="section resume-section">
+		<div class="section-title">Resumes</div>
+	</div>
+	<div class="contact-section">
+		<div class="section-title">Contact</div>
+		<div class="contact-container">
+				<!--Facebook-->
 				<div class="connect"><a href="http://www.linkedin.com/pub/margaret-feltz/54/856/91/"><img class="contact_icon"src="images/linkedin.jpeg" border="0"></a> </div>
-				<!--Github-->
+				<!--Instagram-->
 				<div class="connect"><a href="http://github.com/mfeltz"><img class="contact_icon"src="images/github.png" border="0"></a></div>
 				<!--Email-->
 				<div class="connect"><a href="mailto:mfeltz0320@gmail.com"><img class="contact_icon"src="images/email.png" border="0"></a> </div>
-				<!--Pinterest-->
+				<!--Twitter-->
 				<div class="connect"><a href="http://pinterest.com/mfeltz95"><img class="contact_icon"src="images/pinterest.png" border="0"></a></div>
-				<!--Instagram-->
+				<!--Snapchat-->
 				<div class="connect"><a href="http://instagram.com/margaret_feltz"><img class="contact_icon"src="images/instagram.png" border="0"></a></div>
 			</div>
-		</div>
 	</div>
 
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-	<script type="text/javascript" src="js/script.js"></script>
+
+	<div id="overlay">
+		<div id="work-detail-container" class="modal">
+			Work Stuff
+		</div>
+		<div id="project-detail-container" class="modal">
+			Project Stuff
+		</div>
+	</div>
+	<script src="libs/jquery.min.js"></script>
+	<script src="js/script.js"></script>
 </body>
 </html>
-
