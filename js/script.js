@@ -29,11 +29,18 @@ $( document ).ready(function() {
 		//WORK
 
 		//FITBIT
-		var fitbit_title = 'Software Engineering Intern';
-		var fitbit_date = 'Summer 2015';
-		var fitbit_url = 'fitbit.com';
-		var fitbit_desc = 'Worked on the Device Cornerstone team. Front-end focused, working on various bug fixes, as well as creating my own user interface for daily stats.';
+		var fitbit = {
+			title: 'Software Engineering Intern',
+			date: 'Summer 2015',
+			url: 'fitbit.com',
+			desc: 'Worked on the Device Cornerstone team. Front-end focused, working on various bug fixes, as well as creating my own user interface for daily stats.'}
 
+		var ibm ={
+			title: 'Software Engineering Intern',
+			date: 'Summer 2014',
+			url: 'ibm.com',
+			desc: 'Improved capabilities for IMAP transfer'
+		}
 
 	//MODAL
 	var initializeModal = function() {
@@ -41,6 +48,30 @@ $( document ).ready(function() {
 
 		$('.work-bubble').click(function() {
 			$('#overlay').addClass(showOverlayClass);
+
+			//Insert details
+			var this_bubble = $(this).attr('id');
+			var bubble = this_bubble.substring(0, this_bubble.length-7)
+			var selected;
+
+			console.log(bubble);
+
+			switch(bubble) {
+				case 'fitbit':
+					selected = fitbit;
+					break;
+
+				case 'ibm':
+					selected = ibm;
+					break;
+			}
+
+			$('#work-detail-container .modal-title').text(selected.title);
+			$('#work-detail-container .modal-date').text(selected.date);
+			$('#work-detail-container .modal-url').text(selected.url);
+			$('#work-detail-container .modal-desc').text(selected.desc);
+
+
 			$('#work-detail-container').show();
 		});
 

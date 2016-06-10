@@ -174,12 +174,11 @@ body {
 }
 
 /*WORK BUBBLES*/
-.bubble-img {
+.work-bubble, .project-bubble {
   -webkit-filter: grayscale(100%);
-  position: absolute;
 }
 
-.bubble-img:hover {
+.work-bubble:hover, .project-bubble:hover {
   -webkit-filter: grayscale(0%);
 }
 
@@ -194,42 +193,35 @@ body {
 }
 
 /*WORK BUBBLES*/
-#fitbit-bubble .bubble-img {
-  width: 151px;
-  top: 5px;
-  left: 5px;
+#fitbit-bubble {
+  background-image: url(../images/fitbit-logo.png);
+  background-size: cover;
 }
 
-#ibm-bubble .bubble-img {
-  top: 49px;
-  left: 12px;
-  width: 137px;
+#ibm-bubble {
+  background-image: url(../images/IBM_logo.svg);
+  background-size: cover;
 }
 
-#gkn-bubble .bubble-img {
-  top: 49px;
-  left: 12px;
-  width: 137px;
+#gkn-bubble {
+  background-image: url(../images/gkn-logo.png);
+  background-size: cover;
 }
 
 
-#tsr-bubble .bubble-img {
-  top: 49px;
-  left: 12px;
-  width: 137px;
+#tsr-bubble {
+  background-image: url(../images/TSRLogo.gif);
+  background-size: cover;
 }
 
-#tcc-bubble .bubble-img {
-  top: 14px;
-  left: -5px;
-  width: 173px;
+#tcc-bubble {
+  background-image: url(../images/china-care.gif);
+  background-size: cover;
 }
 
-#lux-bubble .bubble-img {
-  top: 8px;
-  left: 5px;
-  border-radius: 80px;
-  width: 150px;
+#lux-bubble {
+  background-image: url(../images/tuftslux.png);
+  background-size: cover;
 }
 
 /*PROJECTS SECTION*/
@@ -239,30 +231,29 @@ body {
 }
 
 /*PROJECT BUBBLES*/
-#personal-bubble .bubble-img {
-  width: 231px;
-  left: -32px;
+#personal-bubble {
+  background-image: url(../images/personal.png);
+  background-size: cover;
 }
 
-#lux-web-bubble .bubble-img {
-  width: 212px;
-  left: -29px;
+#lux-web-bubble {
+  background-image: url(../images/lux-web.png);
+  background-size: cover;
 }
 
-#tcc-web-bubble .bubble-img {
-  width: 180px;
-  left: -8px;
+#tcc-web-bubble {
+  background-image: url(../images/tcc-web.png);
+  background-size: cover;
 }
 
-#jumbo-bubble .bubble-img {
-  width: 231px;
-  left: -43px;
-  top: -7px;
+#jumbo-bubble {
+  background-image: url(../images/jumbosavings.png);
+  background-size: cover;
 }
 
-#scoop-bubble .bubble-img {
-  width: 178px;
-  left: -5px;
+#scoop-bubble {
+  background-image: url(../images/scoop.png);
+  background-size: cover;
 }
 
 #rpn-bubble span {
