@@ -82,9 +82,17 @@ $( document ).ready(function() {
 				case 'fitbit':
 					selected = fitbit;
 					break;
-
 				case 'ibm':
 					selected = ibm;
+					break;
+				case 'tsr':
+					selected = tsr;
+					break;
+				case 'tcc':
+					selected = tcc;
+					break;
+				case 'lux':
+					selected = lux;
 					break;
 			}
 
