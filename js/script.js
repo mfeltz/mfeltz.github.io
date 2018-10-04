@@ -30,17 +30,39 @@ $( document ).ready(function() {
 
 		//FITBIT
 		var fitbit = {
-			title: 'Software Engineering Intern',
-			date: 'Summer 2015',
+			title: 'Senior Software Engineer',
+			date: 'Aug. 2016 - Present',
 			url: 'fitbit.com',
-			desc: 'Worked on the Device Cornerstone team. Front-end focused, working on various bug fixes, as well as creating my own user interface for daily stats.'}
+			desc: 'Currently working on the Health Programs Team writing Node.js apps. Previously worked on the Web team redesigning and rebuilding the logged in experience, moving Fitbit.com out of our monolith'
+		};
 
 		var ibm ={
 			title: 'Software Engineering Intern',
 			date: 'Summer 2014',
 			url: 'ibm.com',
 			desc: 'Improved capabilities for IMAP transfer'
-		}
+		};
+
+		var tsr = {
+			title: 'CEO & COO',
+			date: 'Jan. 2014 - Jan. 2016',
+			url: 'tuftsstudentresources.com',
+			desc: 'Led student run business, managing around 80 employees with over $250k in yearly revenue'
+		};
+
+		var tcc = {
+			title: 'President',
+			date: 'May 2013 - May 2015',
+			url: 'tufts.ase.edu/tuftschinacare',
+			desc: 'Led non-profit student group, planning events and fundraisers to provide foster families to orphans with special needs in China.'
+		};
+
+		var lux = {
+			title: 'Director',
+			date: 'Jan. 2013 - May. 2016',
+			url: 'tuftslux.com',
+			desc: 'Directed student charity fashion show for 3 years, raising thousands of dollars each year for Tufts China Care. Responsible for brand sponsorship and production.'
+		};
 
 	//MODAL
 	var initializeModal = function() {
