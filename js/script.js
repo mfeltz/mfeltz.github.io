@@ -146,9 +146,9 @@ $( document ).ready(function() {
 			var this_bubble = $(this).attr('id');
 			var selected;
 
-			console.log(bubble);
+			console.log(this_bubble);
 
-			switch(bubble) {
+			switch(this_bubble) {
 				case 'personal-bubble':
 					selected = personal;
 					break;
