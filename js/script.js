@@ -64,6 +64,40 @@ $( document ).ready(function() {
 			desc: 'Directed student charity fashion show for 3 years, raising thousands of dollars each year for Tufts China Care. Responsible for brand sponsorship and production.'
 		};
 
+		var personal = {
+			title: 'Personal Site',
+			date: 'Always a Work in Progress',
+			url: 'mfeltz.github.io',
+			desc: 'Using this as a portfolio as well as a space to experiment with UI and web development.'
+		};
+		var luxWeb = {
+			title: 'LUX Fashion Show Website',
+			date: 'Spring 2015',
+			url: 'tuftslux.com',
+			desc: 'Designed and created website for the Tufts LUX Fashion Show to showcase models, photoshoots, and of course our brand sponsorships.'
+		};
+
+		var tccWeb ={
+			title: 'Tufts China Care Website',
+			date: 'Spring 2014',
+			url: 'ase.tufts.edu/tuftschinacare',
+			desc: 'Designed and created website for Tufts China Care to provide information to potential new members, publicize events, and share what we\'ve accomplished.'
+		};
+
+		var jumbo ={
+			title: 'Jumbo Savings',
+			date: 'Spring 2014',
+			url: 'jumbosavings.herokuapp.com',
+			desc: 'Web app that analyzes students\' campus dining cash spending to better inform their meal plan decisions on a tight college budget.'
+		};
+
+		var scoop ={
+			title: 'Scoop N Scootery App',
+			date: 'Spring 2016',
+			url: 'Prototype Video: https://youtu.be/XQyY2ZkRFUg',
+			desc: 'Prototyped an app for Scoop N Scootery\' online ice cream delivery service. Researched UX best practices and performed user interviews to inform design decisions. (For Human Computer Interaction Course)'
+		};
+
 	//MODAL
 	var initializeModal = function() {
 		var showOverlayClass = 'showOverlay';
@@ -107,6 +141,36 @@ $( document ).ready(function() {
 
 		$('.project-bubble').click(function() {
 			$('#overlay').addClass(showOverlayClass);
+
+			//Insert details
+			var this_bubble = $(this).attr('id');
+			var selected;
+
+			console.log(bubble);
+
+			switch(bubble) {
+				case 'personal-bubble':
+					selected = personal;
+					break;
+				case 'lux-web-bubble':
+					selected = luxWeb;
+					break;
+				case 'tcc-web-bubble':
+					selected = tccWeb;
+					break;
+				case 'jumbo-bubble':
+					selected = jumbo;
+					break;
+				case 'scoop-bubble':
+					selected = scoop;
+					break;
+			}
+
+			$('#project-detail-container .modal-title').text(selected.title);
+			$('#project-detail-container .modal-date').text(selected.date);
+			$('#project-detail-container .modal-url').text(selected.url);
+			$('#project-detail-container .modal-desc').text(selected.desc);
+
 			$('#project-detail-container').show();
 		});
 
