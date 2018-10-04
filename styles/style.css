@@ -291,10 +291,10 @@ body {
   width: 600px;
   justify-content: space-around;
   margin: 35px auto;
+}
 
-  img {
-    width: 50px;
-  }
+.contact-icon {
+  width: 50px;
 }
 
 /*MODALS*/
